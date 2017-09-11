@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  background: #444;
+}
+
+#timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 7vh;
+  font-family: Orbitron;
+  font-weight: bold;
+  color: #3b9c07;
+  font-size: 4em;
+}
+
+#button-container {
+  display: flex;
+  justify-content: center;
+}
+
+#toggle {
+  border-style: none;
+}
+
+#reset {
+  border-style: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
